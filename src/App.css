@@ -1,38 +1,202 @@
 .App {
-  text-align: center;
+ height:100vh;
+ width:100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Home{
+  width:100vw;
+  height:100vh;
+  display: flex;
+  
+    flex: 1;
+  
+ background-image:url('/Users/gabriellahasaj/paulsteak-app/src/642fd25d-f5d9-4ece-a4dc-b7dde0f66722.jpg') ;
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.homename {
+  color: white;
+  display: flex;
+  gap:4rem;
+  justify-content: space-between;
+  justify-content: center; /* center vertically */
+  width: 100vw;
+  height: 100vh;
+  margin: 0;               /* remove default body margin */
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+}
+
+  .homewords{
+    margin: 0;    
+    margin-left:0.5rem;      /* removes default gaps */
+    line-height: 1.2;
   }
+@media(min-width:800px){
+  
+  .menu {
+    color:white;
+      position: absolute;     /* stays at top */
+      top: 0;
+      left: 0;
+      width:100vw;
+      box-sizing: border-box;  /* prevents extra width */
+    gap: 3rem;
+      display: flex;
+      justify-content: flex-end;
+      padding: 1rem 2rem;
+      background: rgba(0, 0, 0, 0.2); /* semi-transparent bar */
+      text-decoration: none;
+    }
+    .homewordsh1{
+      margin-bottom: 6rem;
+     }
+.homewords h1 {
+  font-family:cursive;
+  margin: 0;          /* removes default gaps */
+  line-height: 1.2;   /* tighter spacing */
+  font-size: 4rem;
+  width:100%;
+}
+.homewords h2{
+  margin:0;
+  line-height: 1.2; 
+  width:100%;
+
+}
+.homeback {
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  height: 40rem;
+  background-image:url('/Users/gabriellahasaj/paulsteak-app/src/48dd3292-8f3a-47cc-945a-400593b85de2.jpg') ;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+@media(max-width: 800px){
+  .Home {
+    background-size: cover;       /* still cover for full screen */
+    background-position: top center; /* shifts focus up if needed for mobile */
+  }
+  .menu {
+    font-size: small;
+    color:white;
+      position: absolute;     /* stays at top */
+      top: 0;
+      left: 0;
+      width:100vw;
+      box-sizing: border-box;  /* prevents extra width */
+    gap: 1.5rem;
+      display: flex;
+      justify-content: flex-end;
+      padding: 4.5rem 2rem;
+    }
+    .homewordsh1{
+      margin-bottom: 2rem;
+     
+     }
+     .Location{
+      margin-top: 1rem;
+      margin-bottom:1rem;
+     }
+.homewords h1 {
+  font-family:cursive;
+  margin: 0;          /* removes default gaps */
+  line-height: 1.5;   /* tighter spacing */
+  font-size: 1.45rem;
+  width:100%;
+}
+.homewords h2{
+  margin:0;
+  line-height: 1.2; 
+  width:100%;
+  font-size: small;
+
+}
+.homeback {
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  height: 20rem;
+  background-image:url('/Users/gabriellahasaj/paulsteak-app/src/48dd3292-8f3a-47cc-945a-400593b85de2.jpg') ;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+
+}
+}
+.Menu {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 1rem;
 }
 
+.react-pdf__Page {
+  margin-bottom: 1rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.menu-link {
+  text-decoration: none;  /* removes underline */
+  color: inherit;         /* matches the parent text color */
+}
+
+/* optional: make it always white, or your brand color */
+.menu-link h3 {
+  color: white;
+}
+.react-pdf__Page__textContent {
+  display: none !important;
+}
+.react-pdf__Page__annotations {
+  display: none !important;
+}
+.Info{
+  background-image:url('/Users/gabriellahasaj/paulsteak-app/src/642fd25d-f5d9-4ece-a4dc-b7dde0f66722.jpg') ;
+  background-position: center;
+  display: flex;
+  width:100vw;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height:100vh;
+}
+.Infoback{
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4); /* semi-transparent bar */
+  color: white;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+}
+@media(max-width: 800px){
+  .homename {
+    gap: 2rem;
+  }
+  .Infoback{
+    font-size: small;
+  }
+  .Info{
+    background-image:url('/Users/gabriellahasaj/paulsteak-app/src/FullSizeRender_VSCO 3.jpg') ;
+    background-position: center;
+    display: flex;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height:100vh;
+  }
+}
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
