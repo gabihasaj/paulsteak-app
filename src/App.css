@@ -10,7 +10,7 @@
   
     flex: 1;
   
- background-image:url('/Users/gabriellahasaj/paulsteak-app/src/642fd25d-f5d9-4ece-a4dc-b7dde0f66722.jpg') ;
+ background-image:url('/Users/gabriellahasaj/Desktop/paulsteak-app/src/642fd25d-f5d9-4ece-a4dc-b7dde0f66722.jpg') ;
   background-size: cover;
 }
 
@@ -70,7 +70,7 @@
   align-items: center;
   width: 40rem;
   height: 40rem;
-  background-image:url('/Users/gabriellahasaj/paulsteak-app/src/48dd3292-8f3a-47cc-945a-400593b85de2.jpg') ;
+  background-image:url('/Users/gabriellahasaj/Desktop/paulsteak-app/src/48dd3292-8f3a-47cc-945a-400593b85de2.jpg') ;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@
   align-items: center;
   width: 30rem;
   height: 20rem;
-  background-image:url('/Users/gabriellahasaj/paulsteak-app/src/48dd3292-8f3a-47cc-945a-400593b85de2.jpg') ;
+  background-image:url('/Users/gabriellahasaj/Desktop/paulsteak-app/src/48dd3292-8f3a-47cc-945a-400593b85de2.jpg') ;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -158,7 +158,7 @@
   display: none !important;
 }
 .Info{
-  background-image:url('/Users/gabriellahasaj/paulsteak-app/src/642fd25d-f5d9-4ece-a4dc-b7dde0f66722.jpg') ;
+  background-image:url('/Users/gabriellahasaj/Desktop/paulsteak-app/src/642fd25d-f5d9-4ece-a4dc-b7dde0f66722.jpg') ;
   background-position: center;
   display: flex;
   width:100vw;
@@ -186,7 +186,7 @@
     font-size: small;
   }
   .Info{
-    background-image:url('/Users/gabriellahasaj/paulsteak-app/src/FullSizeRender_VSCO 3.jpg') ;
+    background-image:url('/Users/gabriellahasaj/Desktop/paulsteak-app/src/FullSizeRender_VSCO 3.jpg') ;
     background-position: center;
     display: flex;
     width:100vw;
