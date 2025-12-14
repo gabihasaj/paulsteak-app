@@ -17,10 +17,12 @@ function Menu() {
   return (
     <div className="Menu">
       <Document
-        file={process.env.PUBLIC_URL + "/menu2.pdf"}
-        onLoadSuccess={onDocumentLoadSuccess}
-        loading={<p>Loading menu…</p>}
-      >
+  file={`${import.meta.env.BASE_URL}menu2.pdf`}
+  onLoadSuccess={onDocumentLoadSuccess}
+  loading={<p>Loading menu…</p>}
+  onLoadError={(e) => console.log("PDF load error:", e)}
+>
+
         {numPages > 0 &&
           Array.from({ length: numPages }, (_, index) => (
             <Page
