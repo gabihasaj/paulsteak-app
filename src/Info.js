@@ -25,6 +25,8 @@ return(
         <h2>2055 South Linden Rd Flint, MI 48532</h2>
         <h2>Phone Number:</h2>
         <h2>(810)422-5621</h2>
+        <h2>*Call to reserve our party room that fits up to 60 people!*</h2>
+
 
         </div>
 
